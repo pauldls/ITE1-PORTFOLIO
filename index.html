@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal student portfolio website" />
+  <title>My Portfolio | ITE 1</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar container">
+      <a class="logo" href="#home">My<span>Portfolio.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu"><i data-lucide="menu"></i></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> WELCOME TO MY PORTFOLIO</p>
+          <h1>Hi, I'm <span class="accent">Adrianne Paul Delos Santos</span></h1>
+          <h2>BSIT Student</h2>
+          <p class="hero-description">I am a student who is passionate about technology, learning new skills, and creating useful digital experiences. This portfolio showcases my background, skills, and school projects.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Explore My Work <i data-lucide="arrow-up-right"></i></a>
+            <a class="btn btn-outline" href="#contact">Contact Me</a>
+          </div>
+          <div class="social-note"><span class="social-line"></span> A little about me, my skills, and my journey in IT.</div>
+        </div>
+        <div class="hero-visual">
+          <div class="image-backdrop"></div>
+          <div class="photo-frame"><img src="images/profile.jpg" alt="Portfolio profile portrait" /></div>
+          <div class="floating-card"><span class="card-icon"><i data-lucide="graduation-cap"></i></span><span><strong>IT Student</strong><small>Always learning</small></span></div>
+          <span class="decor decor-one">✳</span><span class="decor decor-two">+</span>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about"><span>SCROLL TO EXPLORE</span><i data-lucide="arrow-down"></i></a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">GET TO KNOW ME</p><h2>About <span class="accent">Me</span></h2><p>Learn a little more about who I am and what I want to achieve.</p></div>
+        <div class="about-grid">
+          <div class="about-card about-mark"><span class="quote-mark">“</span><h3>Learning today,<br/>building tomorrow.</h3><p>Every new lesson is an opportunity to improve, explore, and grow.</p></div>
+          <div class="about-text"><h3>Hi! I'm a student pursuing Information Technology.</h3><p>I am currently developing my knowledge in computer systems, programming, and web development. I enjoy learning how technology works and how it can help solve everyday problems.</p><p>My goal is to improve my technical skills, gain experience through projects, and become a responsible and capable IT professional.</p><div class="detail-grid"><div><span class="detail-label">COURSE</span><strong>Bachelor of Science in Information Technology</strong></div><div><span class="detail-label">INTERESTS</span><strong>Technology · Web Design · Computers</strong></div></div><a class="text-link" href="#contact">Let's connect <i data-lucide="arrow-up-right"></i></a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">WHAT I'M LEARNING</p><h2>My <span class="accent">Skills</span></h2><p>Skills I am developing through my studies and practice.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon"><i data-lucide="code-2"></i></div><h3>Web Development</h3><p>Learning the basics of building and styling websites.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+          <article class="skill-card"><div class="skill-icon"><i data-lucide="monitor"></i></div><h3>Computer Skills</h3><p>Using computer applications and managing digital files.</p><div class="tags"><span>Computer Basics</span><span>Office Apps</span></div></article>
+          <article class="skill-card"><div class="skill-icon"><i data-lucide="network"></i></div><h3>Networking</h3><p>Learning network concepts, devices, and basic configuration.</p><div class="tags"><span>LAN</span><span>Networking Basics</span></div></article>
+          <article class="skill-card"><div class="skill-icon"><i data-lucide="users"></i></div><h3>Personal Skills</h3><p>Working with others and staying open to feedback.</p><div class="tags"><span>Teamwork</span><span>Communication</span><span>Problem Solving</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">SOME THINGS I'VE WORKED ON</p><h2>My <span class="accent">Projects</span></h2><p>School activities and projects that help me practice what I learn.</p></div>
+      </div>
+    </section>
+
+    
+<section class="section contact-section" id="contact">
+  <div class="container contact-panel">
+    <div>
+      <p class="eyebrow">HAVE A QUESTION?</p>
+      <h2>Let's get in <span class="accent">touch.</span></h2>
+      <p>Feel free to contact me for school collaborations, project discussions, or just to connect.</p>
+    </div>
+    <div class="contact-details">
+      <a href="mailto:your.email@example.com">
+        <span class="contact-icon"><i data-lucide="mail"></i></span>
+        <span><small>EMAIL</small><strong>fafainjan@gmail.com</strong></span>
+        <i data-lucide="arrow-up-right"></i>
+      </a>
+      <a href="tel:09105628043">
+        <span class="contact-icon"><i data-lucide="phone"></i></span>
+        <span><small>CONTACT NUMBER</small><strong>09105628043</strong></span>
+        <i data-lucide="arrow-up-right"></i>
+      </a>
+      <div class="contact-tip"></div>
+    </div>
+  </div>
+</section>
+</main>
+
+
+  <footer class="footer"><div class="container footer-inner"><a class="logo" href="#home">My<span>Portfolio.</span></a><p>Designed for my ITE 1 portfolio activity.</p><a class="back-top" href="#home">Back to top ↑</a></div><div class="copyright">© <span id="year"></span> Your Name. All rights reserved.</div></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
